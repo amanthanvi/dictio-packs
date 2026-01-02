@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-01-01T00:00:00Z",
+  "packs": [
+    {
+      "downloadURL": "https://raw.githubusercontent.com/amanthanvi/dictio-packs/main/packs/en_us_fixture.dictiopack",
+      "downloadSizeBytes": 2106,
+      "manifest": {
+        "packID": "en_us_fixture",
+        "name": "English (Fixture)",
+        "languageCode": "en",
+        "region": "US",
+        "version": "0.0.0",
+        "schemaVersion": 1,
+        "sqliteFilename": "pack.sqlite",
+        "checksumsFilename": "SHA256SUMS",
+        "signatureFilename": "signature.ed25519",
+        "signatureKeyID": "fixture-key-1",
+        "source": {
+          "sourceID": "fixture",
+          "name": "Fixture Source",
+          "licenseName": "Test",
+          "licenseURL": null,
+          "attributionText": "Fixture content for tests only.",
+          "requiredAttributionDisplay": "per-pack"
+        }
+      }
+    }
+  ]
+}
