@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-01-01T00:00:00Z",
+  "generatedAt": "2026-01-02T02:47:47Z",
   "packs": [
     {
-      "downloadURL": "https://raw.githubusercontent.com/amanthanvi/dictio-packs/main/packs/en_us_fixture.dictiopack",
-      "downloadSizeBytes": 2106,
+      "downloadURL": "https://raw.githubusercontent.com/amanthanvi/dictio-packs/main/packs/en_simplewiktionary.dictiopack",
+      "downloadSizeBytes": 5001538,
       "manifest": {
-        "packID": "en_us_fixture",
-        "name": "English (Fixture)",
-        "languageCode": "en",
-        "region": "US",
-        "version": "0.0.0",
-        "schemaVersion": 1,
-        "sqliteFilename": "pack.sqlite",
         "checksumsFilename": "SHA256SUMS",
+        "languageCode": "en",
+        "name": "English (Wiktionary)",
+        "packID": "en_simplewiktionary",
+        "schemaVersion": 1,
         "signatureFilename": "signature.ed25519",
-        "signatureKeyID": "fixture-key-1",
+        "signatureKeyID": "dictio-key-1",
         "source": {
-          "sourceID": "fixture",
-          "name": "Fixture Source",
-          "licenseName": "Test",
-          "licenseURL": null,
-          "attributionText": "Fixture content for tests only.",
-          "requiredAttributionDisplay": "per-pack"
-        }
+          "attributionText": "This dictionary is based on Wiktionary content, extracted from Simple Wiktionary by Kaikki.org.\nLicensed under CC BY-SA 4.0 and the GNU Free Documentation License (GFDL). Attribution: Wiktionary contributors.",
+          "licenseName": "CC BY-SA 4.0 + GFDL",
+          "licenseURL": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+          "name": "Wiktionary (via Kaikki.org)",
+          "requiredAttributionDisplay": "per-pack",
+          "sourceID": "wiktionary"
+        },
+        "sqliteFilename": "pack.sqlite",
+        "version": "0.1.0"
       }
     }
   ]
