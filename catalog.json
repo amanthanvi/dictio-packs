@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-01-02T02:47:47Z",
+  "generatedAt": "2026-01-02T04:17:46Z",
   "packs": [
     {
       "downloadURL": "https://raw.githubusercontent.com/amanthanvi/dictio-packs/main/packs/en_simplewiktionary.dictiopack",
-      "downloadSizeBytes": 5001538,
+      "downloadSizeBytes": 5001534,
       "manifest": {
         "checksumsFilename": "SHA256SUMS",
         "languageCode": "en",
-        "name": "English (Wiktionary)",
+        "name": "English (Simple Wiktionary)",
         "packID": "en_simplewiktionary",
         "schemaVersion": 1,
         "signatureFilename": "signature.ed25519",
         "signatureKeyID": "dictio-key-1",
         "source": {
-          "attributionText": "This dictionary is based on Wiktionary content, extracted from Simple Wiktionary by Kaikki.org.\nLicensed under CC BY-SA 4.0 and the GNU Free Documentation License (GFDL). Attribution: Wiktionary contributors.",
+          "attributionText": "This dictionary is based on Simple Wiktionary content, extracted by Kaikki.org.\nLicensed under CC BY-SA 4.0 and the GNU Free Documentation License (GFDL). Attribution: Wiktionary contributors.",
           "licenseName": "CC BY-SA 4.0 + GFDL",
-          "licenseURL": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
-          "name": "Wiktionary (via Kaikki.org)",
+          "licenseURL": "https://simple.wiktionary.org/wiki/Wiktionary:Copyrights",
+          "name": "Simple Wiktionary (via Kaikki.org)",
           "requiredAttributionDisplay": "per-pack",
           "sourceID": "wiktionary"
         },
         "sqliteFilename": "pack.sqlite",
-        "version": "0.1.0"
+        "version": "0.1.1"
       }
     }
   ]
